@@ -15,6 +15,7 @@ html {
 }
 
 .image-container {
+    padding: 10px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -33,6 +34,7 @@ html {
 .background-section-two {
     width: auto;
     height:auto;    
+    align-items: center;
     background-image: url(../assets/bg3.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -107,7 +109,7 @@ form {
 .botao {
     margin-top: 30px;
     height: 3rem;
-    width: 23rem;
+    width: 95%;
     font-weight: 200;
     background-size: cover;
 }
@@ -115,7 +117,7 @@ form {
 .submit {
     margin-top: 50px;
     height: 5rem;
-    width: 23rem;
+    width: 95%;
     background-size: cover;
     background-color: #4169E1;
     color: #fff;
@@ -135,4 +137,54 @@ footer {
     text-align: center;
     background-color: #000;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .background-section-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    }
+    .image-container {
+        width: 70%;
+        align-items: center;
+    }
+    .card-container {
+        background-color: #fff;
+        width: 70%;
+        border-radius: 25px;                   
+        height: 600px;
+    }
+    .botao {
+        margin-top: 30px;
+        height: 3rem;
+        width: 95%;
+        font-weight: 200;
+        background-size: cover;
+    }
+    
+    .submit {
+        margin-top: 50px;
+        height: 5rem;
+        width: 95%;
+        background-size: cover;
+        background-color: #4169E1;
+        color: #fff;
+    }
+
+    .titulo {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .cadastro {
+        font-size: 20px;
+    }
+
+    .background-section-one {        
+        height: 30vh;
+    }
 }
