@@ -14,10 +14,10 @@ form.addEventListener ('submit', (e) => {
 
     let content = document.getElementById ('content')
 
-    let carregando = `<p>carregando...</p>`
+    let carregando = `<p>Cadastro Realizado com Sucesso!</p>`
 
     content.innerHTML = carregando
     setTimeout (() => {
         content.innerHTML = pronto
-    }, 3000)
+    }, 1000)
 })

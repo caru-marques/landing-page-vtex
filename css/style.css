@@ -31,6 +31,7 @@ html {
     background-repeat: no-repeat;
 }
 .background-section-two {
+    width: auto;
     height:auto;    
     background-image: url(../assets/bg3.jpg);
     background-attachment: fixed;
@@ -40,10 +41,10 @@ html {
 
 .titulo {
     margin: 50px 0;
-    width: 95%;
+    width: 85%;
     text-align:center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -51,9 +52,10 @@ html {
     margin: 20px;
     display: flex;    
     justify-content: space-around;
-    width: 87%;
+    width: 75%;
     height: 110px;
     margin-top: 30px;
+    align-items: center;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
@@ -65,14 +67,15 @@ html {
 
 .card-container {
     background-color: #fff;
-    width: 50%;
+    width: 30%;
     border-radius: 25px;
-    padding: 60px;
+    padding: 20px;
     max-width: 500px;    
     height: 600px;
 }
 
 input {
+    padding: 5px;
     width: 100%;
     height: 30px;
     margin-bottom: 10px;
@@ -95,6 +98,7 @@ form {
 }
 
 .cadastro {
+    padding: 5px;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 600;
@@ -103,7 +107,7 @@ form {
 .botao {
     margin-top: 30px;
     height: 3rem;
-    width: 30rem;
+    width: 23rem;
     font-weight: 200;
     background-size: cover;
 }
@@ -111,7 +115,7 @@ form {
 .submit {
     margin-top: 50px;
     height: 5rem;
-    width: 30rem;
+    width: 23rem;
     background-size: cover;
     background-color: #4169E1;
     color: #fff;
@@ -124,6 +128,7 @@ form {
 }
 
 footer {
+    align-items: center;
     width: 100%;
     height: 150px;
     padding: 25px;
